@@ -1,7 +1,4 @@
-$darkGray : #6b717f;
-$ligthGray : #8C8C8C ;
-$padding-base: 16px;
-$padding-footer-h3: $padding-base * 2;
+@import "variables";
 
 @mixin box-shadow ($color) {
     -webkit-box-shadow: 10px 10px 15px -4px $darkGray;
